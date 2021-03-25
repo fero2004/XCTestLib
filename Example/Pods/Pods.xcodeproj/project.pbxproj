@@ -1,0 +1,983 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		003E38518B12CDE6A385542857BCBF30 /* XCTestRun.h in Headers */ = {isa = PBXBuildFile; fileRef = 3039BB72F128DDC4E5B9E50A327B98A8 /* XCTestRun.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0735BCA28FD87EB094486906A1E1C6EF /* XCTDarwinNotificationExpectation.h in Headers */ = {isa = PBXBuildFile; fileRef = 31715A5FB06981BF7A2414052D45D1C4 /* XCTDarwinNotificationExpectation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CDD7386BDFF0D5A83367CFDA3417D33 /* XCUISiriService.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA3220D90A38AE66C6A932B247F875E /* XCUISiriService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1043EE017B945BF1D7355AE5713C6FE7 /* XCUIScreenshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 22FFBBC0B7CB93619D0AC7623A56DEA9 /* XCUIScreenshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		180A319F86F4C4C99922E718BEBCB601 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		1E5CA97279B2A31D64907DD1E9A657C2 /* XCTestCase+AsynchronousTesting.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F323E7B4C933F20DC5E94C64CF97246 /* XCTestCase+AsynchronousTesting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F6933627F90D8D56591E8DF53685359 /* XCTestCase+XCUIInterruptionMonitoring.h in Headers */ = {isa = PBXBuildFile; fileRef = B4BD7C2C8BC57FBCC942FC7DB5B36569 /* XCTestCase+XCUIInterruptionMonitoring.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2876C12D8D59FD2118D79C84AC3152C8 /* XCUIElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 86D82B4688B576A05B6B12A38F27B84F /* XCUIElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29E697B5D9A027FBF8199F6C5BC332BE /* XCTNSNotificationExpectation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B9BBD7D3888D4118E5096ACE2120C14 /* XCTNSNotificationExpectation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29FA74D34121B68BA4794CA64F5CAC36 /* XCTestObservation.h in Headers */ = {isa = PBXBuildFile; fileRef = C21951923B55E2D59B6E5CBFA9F29602 /* XCTestObservation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D5171EE52ECDFCCF227797723B91583 /* XCUIScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = ACE097ABFE175F95CE243701D76C2C2A /* XCUIScreen.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E735D8E908BBA7B2DE1115B70686919 /* XCTActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D8E62B2B7534A91CC3B4EDE95D3E1A5 /* XCTActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5189A6AEBFB7BDD9B84FADCD1AB225DA /* XCTAttachmentLifetime.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C8FA638BC47F7E2AB1DF64096F62C56 /* XCTAttachmentLifetime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		572C0C7170E9F294F16A4AC54D1F0C7A /* XCUIApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 9933A3D692818CE961BB7BC83AAEFF15 /* XCUIApplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A5606290981EA86264575D3D3EA4CBE /* XCUIKeyboardKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B367E9A9EDD40621BB796B3B9D4458 /* XCUIKeyboardKeys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A99B5B6280855C467F37550103A7749 /* XCTestDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B368B0AC522CD97A56EFC2FAB645BB /* XCTestDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60ADFA2AAB6B0B2D9C43294467DC3754 /* XCTestAssertions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ED46F1109EBD9652F00E1AFA88594B9 /* XCTestAssertions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67B5C5F3D51D4D497D177B6E28A77D95 /* XCTestErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A7CD84EC675A68ACFDDD9A8D024DD36 /* XCTestErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69BB1EF3124B51B75B3E2E169CC3D706 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		6AD8A5E410DC861401732262055EAB8F /* XCTestCaseRun.h in Headers */ = {isa = PBXBuildFile; fileRef = 58632889D23F52B2F6D41ED9A749350A /* XCTestCaseRun.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B1113A8844BA97C9BB38E79972F9587 /* XCUIElementAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = C4B7E455780235BA9B7EB930B28E8830 /* XCUIElementAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7046EBE26B7FE15BE2AC7FE81435D3F3 /* XCAbstractTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8915976FE5A40F522AB272647C71F807 /* XCAbstractTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73C452F76F514D5E4B817A75AA5E55C2 /* XCTKVOExpectation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BCA61ED160829544E64A89C0BA79E32 /* XCTKVOExpectation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		743CE3F442663E865F1DE4738F557F64 /* XCUIElementTypeQueryProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B51124A981A11A3F536C2441BBE7CE8 /* XCUIElementTypeQueryProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75764AE000AED20188F9586AB1580113 /* XCTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BF65C01B485BCE7232C8660C3EFB589 /* XCTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EA2C8BF817C492830F3EEE9D95D9F35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		86A5B9673766E548640A87228CC5AB29 /* XCTestLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EB55A3AC5AE1FEF83F224728EE3B2C9 /* XCTestLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A679F270DBE68E975620F1E51937359 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		8F60A21A59557C4E545C8577ED5559CA /* XCUICoordinate.h in Headers */ = {isa = PBXBuildFile; fileRef = B6874CE5B480975D511A29849F698029 /* XCUICoordinate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F67498F44937CA0797DEBF3B6761047 /* XCUIScreenshotProviding.h in Headers */ = {isa = PBXBuildFile; fileRef = 3399B52EB3368DBE87055B0933DEF712 /* XCUIScreenshotProviding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		912E63EE56C1DE2B2477CEE6EAE345C5 /* XCUIElementQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C7B1F2E1DF348511CA9699AED6FBFA7 /* XCUIElementQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94BFDC995B05A63948CCB18AA922CFA7 /* XCUIRemote.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F3FEA27D8477B52D30E1E589ED06ED /* XCUIRemote.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C254D47E4522CF29CCB399F14FA81C8 /* XCTAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AED952DC92B40D74DCF10138459A1E8 /* XCTAttachment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A62E50D24A76420A408149E018F9C627 /* Pods-XCTestLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55527DBA17409BAE10DED94DE3DC419A /* Pods-XCTestLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A72F1713CA012AD2C2FB0D896C7BE044 /* XCTestLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F7DEAD362D5E48BB011412B941CEE6 /* XCTestLib-dummy.m */; };
+		B0A50E57955D3FD03943D9D1F8FD5227 /* XCTNSPredicateExpectation.h in Headers */ = {isa = PBXBuildFile; fileRef = EF27D092B172E9BF32686558D1B13283 /* XCTNSPredicateExpectation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B183A18F8C341F4017069E6A640CABC8 /* XCTestObservationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = FA2362D79D47F5DD62787FA24E26817F /* XCTestObservationCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1CB004D7CE6AC4C557086DF0233DBCF /* XCTestSuiteRun.h in Headers */ = {isa = PBXBuildFile; fileRef = CC4898898D5932F73B5AEDAAB7E4E6CD /* XCTestSuiteRun.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3D7F0073E45AC2F1A67D2B3EBE3B881 /* XCTestObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = FB113747653E60926E8FCDB18455BE5F /* XCTestObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B67B0654DF9EC91323CA82AC1D284E42 /* XCUIProtectedResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE918CE6D2299C2C0D087D629B3517C /* XCUIProtectedResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB2B93DD5EE2DD4BF6F2D493794B9B5D /* XCTestSuite.h in Headers */ = {isa = PBXBuildFile; fileRef = 91C120A4481F69614A4767CD2B4620D1 /* XCTestSuite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC6CE5E5FBEE65E4381DA495DD3F6726 /* XCTestExpectation.h in Headers */ = {isa = PBXBuildFile; fileRef = AE56F0C294E15F193AFEBD5D60D9B983 /* XCTestExpectation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF4818AD35F2131BE7828715D1CD73CD /* XCTContext.h in Headers */ = {isa = PBXBuildFile; fileRef = F662176EBDA2F5C977E38E66C332608E /* XCTContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2216DE8A3AEE5AD23EFC4A3E30A7B1E /* XCTestAssertionsImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 78139F0A6181203568E0F42B61486CD6 /* XCTestAssertionsImpl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5720DC077604D81ED0407CF53360D6B /* XCTest.h in Headers */ = {isa = PBXBuildFile; fileRef = DD00FC4D078FEB617F159AF681878E9C /* XCTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C61C4259346AB3BB0838911A0FD193F9 /* XCTestLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 41BE7C1B197ED4214646706D394B5960 /* XCTestLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C650AB4F2A23EEA3423E1651AD1276D3 /* XCTWaiter.h in Headers */ = {isa = PBXBuildFile; fileRef = EF06509E4CA824911C72786A47F8B084 /* XCTWaiter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C817ADE1BFB026D8F211A667A1101B5E /* XCTSourceCodeContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 13CE04E0F47D7CA01F6C5A29FD173B2D /* XCTSourceCodeContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEB4C2DDEE74CAA139E7765B87055A2A /* XCTest.a in Sources */ = {isa = PBXBuildFile; fileRef = A9EBE087C8D1EEC18459735799CE18EF /* XCTest.a */; };
+		CF90A75447F64F331BF38BA7F2A011EB /* XCTMeasureOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = C1CEE224B4D79DA403CF82C7D9FE9976 /* XCTMeasureOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0F6EDAF678E95018488C3CA85CF076F /* Pods-XCTestLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7900CF3039C4769E650BBEC7B8B2E542 /* Pods-XCTestLib_Tests-dummy.m */; };
+		D42EBCCF9B4468CBAE1A3CBFE4B71A9B /* XCUIElementTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DD73E5258240B3202DF2141D6B7724C /* XCUIElementTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6B76CE64599E5F034405C8CA80CFD70 /* XCTMetric.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DCA515255FF2DE14CB3B7382EA3EAA5 /* XCTMetric.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7FDB18536B069E85DA4E259B445B19B /* XCTestSkippingImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 7767ABCD40704890173A138E85D39138 /* XCTestSkippingImpl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E924415AC99042FBF8B455AA0FC191BC /* XCUIDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = F6D296ED04F711D8A640F92637237375 /* XCUIDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA1AE66F4FBA194EEB06F664C0FA9E9D /* Pods-XCTestLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CDC0487F9086DBA5EF03AAEA3BC124 /* Pods-XCTestLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE50C8CA92B1DF8D6C42E7CD42E26885 /* XCTestProbe.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AEB33E8FBBBC5CFEF4FE41C19A3EB16 /* XCTestProbe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F27867BBB26513DA8388E97C2D68D6F3 /* Pods-XCTestLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD5A6A453F146A61919C61148EBB069 /* Pods-XCTestLib_Example-dummy.m */; };
+		F98FBD231B11DAFF83F9870599EAA09E /* XCTIssue.h in Headers */ = {isa = PBXBuildFile; fileRef = BBF65BD6FAC12580665E507D3C7082EF /* XCTIssue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9ED2C8DF63326B4ECD241671E3A4333 /* XCTestSkipping.h in Headers */ = {isa = PBXBuildFile; fileRef = A28516B966F433F1991D55DBF71996AD /* XCTestSkipping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1ED6F161D624EEDBCA0FDA818224CE85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ACA13BDE9809C7DEBADD8CF37E31F12;
+			remoteInfo = XCTestLib;
+		};
+		95E09856264406B8DD0E5CFD0761D021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA8F640FBFBC6B3B6403B1783FA241DD;
+			remoteInfo = "Pods-XCTestLib_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0678C4AF5A6908F03D7908E4AFF8EE7C /* Pods-XCTestLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XCTestLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0B51124A981A11A3F536C2441BBE7CE8 /* XCUIElementTypeQueryProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCUIElementTypeQueryProvider.h; path = XCTestLib/Classes/XCUIElementTypeQueryProvider.h; sourceTree = "<group>"; };
+		0BE918CE6D2299C2C0D087D629B3517C /* XCUIProtectedResource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCUIProtectedResource.h; path = XCTestLib/Classes/XCUIProtectedResource.h; sourceTree = "<group>"; };
+		0C7B1F2E1DF348511CA9699AED6FBFA7 /* XCUIElementQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCUIElementQuery.h; path = XCTestLib/Classes/XCUIElementQuery.h; sourceTree = "<group>"; };
+		0CAE63E1F6F296D045277EA7C570645C /* XCTestLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XCTestLib.framework; sourceTree = "<group>"; };
+		13CE04E0F47D7CA01F6C5A29FD173B2D /* XCTSourceCodeContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCTSourceCodeContext.h; path = XCTestLib/Classes/XCTSourceCodeContext.h; sourceTree = "<group>"; };
+		1BD5A6A453F146A61919C61148EBB069 /* Pods-XCTestLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XCTestLib_Example-dummy.m"; sourceTree = "<group>"; };
+		1C9CCEB3067E4059FAF40F880D37BB7D /* XCTestLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XCTestLib.release.xcconfig; sourceTree = "<group>"; };
+		1CE5A6F78FEF52B6DC7D3DA34C10E114 /* Pods-XCTestLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCTestLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		22B368B0AC522CD97A56EFC2FAB645BB /* XCTestDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCTestDefines.h; path = XCTestLib/Classes/XCTestDefines.h; sourceTree = "<group>"; };
+		22FFBBC0B7CB93619D0AC7623A56DEA9 /* XCUIScreenshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCUIScreenshot.h; path = XCTestLib/Classes/XCUIScreenshot.h; sourceTree = "<group>"; };
+		2A7CD84EC675A68ACFDDD9A8D024DD36 /* XCTestErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCTestErrors.h; path = XCTestLib/Classes/XCTestErrors.h; sourceTree = "<group>"; };
+		2AEB33E8FBBBC5CFEF4FE41C19A3EB16 /* XCTestProbe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCTestProbe.h; path = XCTestLib/Classes/XCTestProbe.h; sourceTree = "<group>"; };
+		3039BB72F128DDC4E5B9E50A327B98A8 /* XCTestRun.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCTestRun.h; path = XCTestLib/Classes/XCTestRun.h; sourceTree = "<group>"; };
+		30FBE722EE7A9989B75776CCA9FAFB32 /* Pods-XCTestLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCTestLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		31715A5FB06981BF7A2414052D45D1C4 /* XCTDarwinNotificationExpectation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCTDarwinNotificationExpectation.h; path = XCTestLib/Classes/XCTDarwinNotificationExpectation.h; sourceTree = "<group>"; };
+		3399B52EB3368DBE87055B0933DEF712 /* XCUIScreenshotProviding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCUIScreenshotProviding.h; path = XCTestLib/Classes/XCUIScreenshotProviding.h; sourceTree = "<group>"; };
+		3689EC1AE7D130E3D070E3A669AAECCF /* Pods_XCTestLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCTestLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B9BBD7D3888D4118E5096ACE2120C14 /* XCTNSNotificationExpectation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCTNSNotificationExpectation.h; path = XCTestLib/Classes/XCTNSNotificationExpectation.h; sourceTree = "<group>"; };
+		3BF65C01B485BCE7232C8660C3EFB589 /* XCTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCTestCase.h; path = XCTestLib/Classes/XCTestCase.h; sourceTree = "<group>"; };
+		3D4A18599CBF6B61B3FFC151C082618C /* XCTestLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XCTestLib-Info.plist"; sourceTree = "<group>"; };
+		41A419144612D2C5EAFE31698D62895C /* XCTestLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCTestLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41BE7C1B197ED4214646706D394B5960 /* XCTestLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCTestLog.h; path = XCTestLib/Classes/XCTestLog.h; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		43C9B019AE5704CA26CA8895A41303CB /* XCTestLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XCTestLib.modulemap; sourceTree = "<group>"; };
+		4EB55A3AC5AE1FEF83F224728EE3B2C9 /* XCTestLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCTestLib-umbrella.h"; sourceTree = "<group>"; };
+		55527DBA17409BAE10DED94DE3DC419A /* Pods-XCTestLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XCTestLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		58632889D23F52B2F6D41ED9A749350A /* XCTestCaseRun.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCTestCaseRun.h; path = XCTestLib/Classes/XCTestCaseRun.h; sourceTree = "<group>"; };
+		5AED952DC92B40D74DCF10138459A1E8 /* XCTAttachment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCTAttachment.h; path = XCTestLib/Classes/XCTAttachment.h; sourceTree = "<group>"; };
+		5F323E7B4C933F20DC5E94C64CF97246 /* XCTestCase+AsynchronousTesting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTestCase+AsynchronousTesting.h"; path = "XCTestLib/Classes/XCTestCase+AsynchronousTesting.h"; sourceTree = "<group>"; };
+		61B367E9A9EDD40621BB796B3B9D4458 /* XCUIKeyboardKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCUIKeyboardKeys.h; path = XCTestLib/Classes/XCUIKeyboardKeys.h; sourceTree = "<group>"; };
+		6DCA515255FF2DE14CB3B7382EA3EAA5 /* XCTMetric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCTMetric.h; path = XCTestLib/Classes/XCTMetric.h; sourceTree = "<group>"; };
+		711E27D967F9F5645D5EB20EEA377D6B /* XCTestLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = XCTestLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7767ABCD40704890173A138E85D39138 /* XCTestSkippingImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCTestSkippingImpl.h; path = XCTestLib/Classes/XCTestSkippingImpl.h; sourceTree = "<group>"; };
+		78139F0A6181203568E0F42B61486CD6 /* XCTestAssertionsImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCTestAssertionsImpl.h; path = XCTestLib/Classes/XCTestAssertionsImpl.h; sourceTree = "<group>"; };
+		7900CF3039C4769E650BBEC7B8B2E542 /* Pods-XCTestLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XCTestLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		7D8E62B2B7534A91CC3B4EDE95D3E1A5 /* XCTActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCTActivity.h; path = XCTestLib/Classes/XCTActivity.h; sourceTree = "<group>"; };
+		7DEAE4C5974DF9FD0E62F07663DDE33C /* Pods-XCTestLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCTestLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		86D82B4688B576A05B6B12A38F27B84F /* XCUIElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCUIElement.h; path = XCTestLib/Classes/XCUIElement.h; sourceTree = "<group>"; };
+		88F3FEA27D8477B52D30E1E589ED06ED /* XCUIRemote.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCUIRemote.h; path = XCTestLib/Classes/XCUIRemote.h; sourceTree = "<group>"; };
+		8915976FE5A40F522AB272647C71F807 /* XCAbstractTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCAbstractTest.h; path = XCTestLib/Classes/XCAbstractTest.h; sourceTree = "<group>"; };
+		8A0A594C4DA70553BDF5A575923F3032 /* Pods-XCTestLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XCTestLib_Example.modulemap"; sourceTree = "<group>"; };
+		8BCA61ED160829544E64A89C0BA79E32 /* XCTKVOExpectation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCTKVOExpectation.h; path = XCTestLib/Classes/XCTKVOExpectation.h; sourceTree = "<group>"; };
+		8C8FA638BC47F7E2AB1DF64096F62C56 /* XCTAttachmentLifetime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCTAttachmentLifetime.h; path = XCTestLib/Classes/XCTAttachmentLifetime.h; sourceTree = "<group>"; };
+		8E7EAFDD12C3970052D0780A730B9711 /* Pods-XCTestLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XCTestLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		91C120A4481F69614A4767CD2B4620D1 /* XCTestSuite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCTestSuite.h; path = XCTestLib/Classes/XCTestSuite.h; sourceTree = "<group>"; };
+		95F7DEAD362D5E48BB011412B941CEE6 /* XCTestLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XCTestLib-dummy.m"; sourceTree = "<group>"; };
+		9933A3D692818CE961BB7BC83AAEFF15 /* XCUIApplication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCUIApplication.h; path = XCTestLib/Classes/XCUIApplication.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DD73E5258240B3202DF2141D6B7724C /* XCUIElementTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCUIElementTypes.h; path = XCTestLib/Classes/XCUIElementTypes.h; sourceTree = "<group>"; };
+		9ED46F1109EBD9652F00E1AFA88594B9 /* XCTestAssertions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCTestAssertions.h; path = XCTestLib/Classes/XCTestAssertions.h; sourceTree = "<group>"; };
+		A28516B966F433F1991D55DBF71996AD /* XCTestSkipping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCTestSkipping.h; path = XCTestLib/Classes/XCTestSkipping.h; sourceTree = "<group>"; };
+		A47B35DC6AD0723974264EAFAAE01525 /* Pods-XCTestLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XCTestLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A72D255F987AB187AAD115BCAD8329FB /* Pods-XCTestLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XCTestLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A87D9420144714BFFF2CB73F187DBD6E /* XCTestLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XCTestLib.debug.xcconfig; sourceTree = "<group>"; };
+		A9EBE087C8D1EEC18459735799CE18EF /* XCTest.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = XCTest.a; path = XCTestLib/Classes/XCTest.a; sourceTree = "<group>"; };
+		ACE097ABFE175F95CE243701D76C2C2A /* XCUIScreen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCUIScreen.h; path = XCTestLib/Classes/XCUIScreen.h; sourceTree = "<group>"; };
+		AE56F0C294E15F193AFEBD5D60D9B983 /* XCTestExpectation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCTestExpectation.h; path = XCTestLib/Classes/XCTestExpectation.h; sourceTree = "<group>"; };
+		B4BD7C2C8BC57FBCC942FC7DB5B36569 /* XCTestCase+XCUIInterruptionMonitoring.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTestCase+XCUIInterruptionMonitoring.h"; path = "XCTestLib/Classes/XCTestCase+XCUIInterruptionMonitoring.h"; sourceTree = "<group>"; };
+		B6874CE5B480975D511A29849F698029 /* XCUICoordinate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCUICoordinate.h; path = XCTestLib/Classes/XCUICoordinate.h; sourceTree = "<group>"; };
+		BBF65BD6FAC12580665E507D3C7082EF /* XCTIssue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCTIssue.h; path = XCTestLib/Classes/XCTIssue.h; sourceTree = "<group>"; };
+		C1CEE224B4D79DA403CF82C7D9FE9976 /* XCTMeasureOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCTMeasureOptions.h; path = XCTestLib/Classes/XCTMeasureOptions.h; sourceTree = "<group>"; };
+		C21951923B55E2D59B6E5CBFA9F29602 /* XCTestObservation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCTestObservation.h; path = XCTestLib/Classes/XCTestObservation.h; sourceTree = "<group>"; };
+		C231BCA7FCAED65B99F4B6A52C2823CA /* Pods_XCTestLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCTestLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4B7E455780235BA9B7EB930B28E8830 /* XCUIElementAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCUIElementAttributes.h; path = XCTestLib/Classes/XCUIElementAttributes.h; sourceTree = "<group>"; };
+		CC4898898D5932F73B5AEDAAB7E4E6CD /* XCTestSuiteRun.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCTestSuiteRun.h; path = XCTestLib/Classes/XCTestSuiteRun.h; sourceTree = "<group>"; };
+		D07925C51F0D2195479F9304720E31FB /* Pods-XCTestLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XCTestLib_Tests.modulemap"; sourceTree = "<group>"; };
+		D0CDC0487F9086DBA5EF03AAEA3BC124 /* Pods-XCTestLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XCTestLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		D8E67435A5E036ED29EE2DBD88ED609F /* Pods-XCTestLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XCTestLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DB7F005FF318D004B8314BA292520FCB /* Pods-XCTestLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCTestLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DD00FC4D078FEB617F159AF681878E9C /* XCTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCTest.h; path = XCTestLib/Classes/XCTest.h; sourceTree = "<group>"; };
+		DD131AE18C64C9FA9640E09724055F57 /* Pods-XCTestLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XCTestLib_Example-Info.plist"; sourceTree = "<group>"; };
+		E6E65B655625CA1C04885F10C4A1D8F9 /* XCTestLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCTestLib-prefix.pch"; sourceTree = "<group>"; };
+		EDA3220D90A38AE66C6A932B247F875E /* XCUISiriService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCUISiriService.h; path = XCTestLib/Classes/XCUISiriService.h; sourceTree = "<group>"; };
+		EF06509E4CA824911C72786A47F8B084 /* XCTWaiter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCTWaiter.h; path = XCTestLib/Classes/XCTWaiter.h; sourceTree = "<group>"; };
+		EF27D092B172E9BF32686558D1B13283 /* XCTNSPredicateExpectation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCTNSPredicateExpectation.h; path = XCTestLib/Classes/XCTNSPredicateExpectation.h; sourceTree = "<group>"; };
+		F662176EBDA2F5C977E38E66C332608E /* XCTContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCTContext.h; path = XCTestLib/Classes/XCTContext.h; sourceTree = "<group>"; };
+		F6D296ED04F711D8A640F92637237375 /* XCUIDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCUIDevice.h; path = XCTestLib/Classes/XCUIDevice.h; sourceTree = "<group>"; };
+		F7AE0E36BEEC485F2CE67CB63CBDB4B2 /* Pods-XCTestLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XCTestLib_Tests-Info.plist"; sourceTree = "<group>"; };
+		FA2362D79D47F5DD62787FA24E26817F /* XCTestObservationCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCTestObservationCenter.h; path = XCTestLib/Classes/XCTestObservationCenter.h; sourceTree = "<group>"; };
+		FB113747653E60926E8FCDB18455BE5F /* XCTestObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCTestObserver.h; path = XCTestLib/Classes/XCTestObserver.h; sourceTree = "<group>"; };
+		FC20D083ED219E1E5A71C28AE4542B16 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FC79BEDCD7E26AAFB1AFA268D1DA1B81 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11B6FA036E62F153E138DFA45FC6CF88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A679F270DBE68E975620F1E51937359 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B2F36DB6578D0CBE745D2A09D2DB2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180A319F86F4C4C99922E718BEBCB601 /* Foundation.framework in Frameworks */,
+				69BB1EF3124B51B75B3E2E169CC3D706 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5C83B64F980C6D6F5B5E1655E0F141B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA2C8BF817C492830F3EEE9D95D9F35 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17ECDD5796AAEC76C34754BD45C477FC /* Pods-XCTestLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8A0A594C4DA70553BDF5A575923F3032 /* Pods-XCTestLib_Example.modulemap */,
+				D8E67435A5E036ED29EE2DBD88ED609F /* Pods-XCTestLib_Example-acknowledgements.markdown */,
+				0678C4AF5A6908F03D7908E4AFF8EE7C /* Pods-XCTestLib_Example-acknowledgements.plist */,
+				1BD5A6A453F146A61919C61148EBB069 /* Pods-XCTestLib_Example-dummy.m */,
+				A47B35DC6AD0723974264EAFAAE01525 /* Pods-XCTestLib_Example-frameworks.sh */,
+				DD131AE18C64C9FA9640E09724055F57 /* Pods-XCTestLib_Example-Info.plist */,
+				D0CDC0487F9086DBA5EF03AAEA3BC124 /* Pods-XCTestLib_Example-umbrella.h */,
+				DB7F005FF318D004B8314BA292520FCB /* Pods-XCTestLib_Example.debug.xcconfig */,
+				7DEAE4C5974DF9FD0E62F07663DDE33C /* Pods-XCTestLib_Example.release.xcconfig */,
+			);
+			name = "Pods-XCTestLib_Example";
+			path = "Target Support Files/Pods-XCTestLib_Example";
+			sourceTree = "<group>";
+		};
+		48DEBBB8BA9DE2B0C2CBC49BC431DFAE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				43C9B019AE5704CA26CA8895A41303CB /* XCTestLib.modulemap */,
+				95F7DEAD362D5E48BB011412B941CEE6 /* XCTestLib-dummy.m */,
+				3D4A18599CBF6B61B3FFC151C082618C /* XCTestLib-Info.plist */,
+				E6E65B655625CA1C04885F10C4A1D8F9 /* XCTestLib-prefix.pch */,
+				4EB55A3AC5AE1FEF83F224728EE3B2C9 /* XCTestLib-umbrella.h */,
+				A87D9420144714BFFF2CB73F187DBD6E /* XCTestLib.debug.xcconfig */,
+				1C9CCEB3067E4059FAF40F880D37BB7D /* XCTestLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XCTestLib";
+			sourceTree = "<group>";
+		};
+		5673A2639CBDFE74386EE707CDCB6EAB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C95A150CDF4C11867BD920E25B011F9E /* XCTestLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5EC7931A388F3D5412124E171E3B2289 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				17ECDD5796AAEC76C34754BD45C477FC /* Pods-XCTestLib_Example */,
+				E32FCA52F43C0D4A27AB02CB198C9156 /* Pods-XCTestLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8E28A43AF4F1A1AF18743A84F166F6A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C231BCA7FCAED65B99F4B6A52C2823CA /* Pods_XCTestLib_Example.framework */,
+				3689EC1AE7D130E3D070E3A669AAECCF /* Pods_XCTestLib_Tests.framework */,
+				41A419144612D2C5EAFE31698D62895C /* XCTestLib.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF2EA822C6A05BB3656B89C1FFCD3FC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CAE63E1F6F296D045277EA7C570645C /* XCTestLib.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C95A150CDF4C11867BD920E25B011F9E /* XCTestLib */ = {
+			isa = PBXGroup;
+			children = (
+				8915976FE5A40F522AB272647C71F807 /* XCAbstractTest.h */,
+				7D8E62B2B7534A91CC3B4EDE95D3E1A5 /* XCTActivity.h */,
+				5AED952DC92B40D74DCF10138459A1E8 /* XCTAttachment.h */,
+				8C8FA638BC47F7E2AB1DF64096F62C56 /* XCTAttachmentLifetime.h */,
+				F662176EBDA2F5C977E38E66C332608E /* XCTContext.h */,
+				31715A5FB06981BF7A2414052D45D1C4 /* XCTDarwinNotificationExpectation.h */,
+				A9EBE087C8D1EEC18459735799CE18EF /* XCTest.a */,
+				DD00FC4D078FEB617F159AF681878E9C /* XCTest.h */,
+				9ED46F1109EBD9652F00E1AFA88594B9 /* XCTestAssertions.h */,
+				78139F0A6181203568E0F42B61486CD6 /* XCTestAssertionsImpl.h */,
+				3BF65C01B485BCE7232C8660C3EFB589 /* XCTestCase.h */,
+				5F323E7B4C933F20DC5E94C64CF97246 /* XCTestCase+AsynchronousTesting.h */,
+				B4BD7C2C8BC57FBCC942FC7DB5B36569 /* XCTestCase+XCUIInterruptionMonitoring.h */,
+				58632889D23F52B2F6D41ED9A749350A /* XCTestCaseRun.h */,
+				22B368B0AC522CD97A56EFC2FAB645BB /* XCTestDefines.h */,
+				2A7CD84EC675A68ACFDDD9A8D024DD36 /* XCTestErrors.h */,
+				AE56F0C294E15F193AFEBD5D60D9B983 /* XCTestExpectation.h */,
+				41BE7C1B197ED4214646706D394B5960 /* XCTestLog.h */,
+				C21951923B55E2D59B6E5CBFA9F29602 /* XCTestObservation.h */,
+				FA2362D79D47F5DD62787FA24E26817F /* XCTestObservationCenter.h */,
+				FB113747653E60926E8FCDB18455BE5F /* XCTestObserver.h */,
+				2AEB33E8FBBBC5CFEF4FE41C19A3EB16 /* XCTestProbe.h */,
+				3039BB72F128DDC4E5B9E50A327B98A8 /* XCTestRun.h */,
+				A28516B966F433F1991D55DBF71996AD /* XCTestSkipping.h */,
+				7767ABCD40704890173A138E85D39138 /* XCTestSkippingImpl.h */,
+				91C120A4481F69614A4767CD2B4620D1 /* XCTestSuite.h */,
+				CC4898898D5932F73B5AEDAAB7E4E6CD /* XCTestSuiteRun.h */,
+				BBF65BD6FAC12580665E507D3C7082EF /* XCTIssue.h */,
+				8BCA61ED160829544E64A89C0BA79E32 /* XCTKVOExpectation.h */,
+				C1CEE224B4D79DA403CF82C7D9FE9976 /* XCTMeasureOptions.h */,
+				6DCA515255FF2DE14CB3B7382EA3EAA5 /* XCTMetric.h */,
+				3B9BBD7D3888D4118E5096ACE2120C14 /* XCTNSNotificationExpectation.h */,
+				EF27D092B172E9BF32686558D1B13283 /* XCTNSPredicateExpectation.h */,
+				13CE04E0F47D7CA01F6C5A29FD173B2D /* XCTSourceCodeContext.h */,
+				EF06509E4CA824911C72786A47F8B084 /* XCTWaiter.h */,
+				9933A3D692818CE961BB7BC83AAEFF15 /* XCUIApplication.h */,
+				B6874CE5B480975D511A29849F698029 /* XCUICoordinate.h */,
+				F6D296ED04F711D8A640F92637237375 /* XCUIDevice.h */,
+				86D82B4688B576A05B6B12A38F27B84F /* XCUIElement.h */,
+				C4B7E455780235BA9B7EB930B28E8830 /* XCUIElementAttributes.h */,
+				0C7B1F2E1DF348511CA9699AED6FBFA7 /* XCUIElementQuery.h */,
+				0B51124A981A11A3F536C2441BBE7CE8 /* XCUIElementTypeQueryProvider.h */,
+				9DD73E5258240B3202DF2141D6B7724C /* XCUIElementTypes.h */,
+				61B367E9A9EDD40621BB796B3B9D4458 /* XCUIKeyboardKeys.h */,
+				0BE918CE6D2299C2C0D087D629B3517C /* XCUIProtectedResource.h */,
+				88F3FEA27D8477B52D30E1E589ED06ED /* XCUIRemote.h */,
+				ACE097ABFE175F95CE243701D76C2C2A /* XCUIScreen.h */,
+				22FFBBC0B7CB93619D0AC7623A56DEA9 /* XCUIScreenshot.h */,
+				3399B52EB3368DBE87055B0933DEF712 /* XCUIScreenshotProviding.h */,
+				EDA3220D90A38AE66C6A932B247F875E /* XCUISiriService.h */,
+				AF2EA822C6A05BB3656B89C1FFCD3FC5 /* Frameworks */,
+				EBBF32495840FB34DAE1374C52EBB933 /* Pod */,
+				48DEBBB8BA9DE2B0C2CBC49BC431DFAE /* Support Files */,
+			);
+			name = XCTestLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5673A2639CBDFE74386EE707CDCB6EAB /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				8E28A43AF4F1A1AF18743A84F166F6A6 /* Products */,
+				5EC7931A388F3D5412124E171E3B2289 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E32FCA52F43C0D4A27AB02CB198C9156 /* Pods-XCTestLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D07925C51F0D2195479F9304720E31FB /* Pods-XCTestLib_Tests.modulemap */,
+				A72D255F987AB187AAD115BCAD8329FB /* Pods-XCTestLib_Tests-acknowledgements.markdown */,
+				8E7EAFDD12C3970052D0780A730B9711 /* Pods-XCTestLib_Tests-acknowledgements.plist */,
+				7900CF3039C4769E650BBEC7B8B2E542 /* Pods-XCTestLib_Tests-dummy.m */,
+				F7AE0E36BEEC485F2CE67CB63CBDB4B2 /* Pods-XCTestLib_Tests-Info.plist */,
+				55527DBA17409BAE10DED94DE3DC419A /* Pods-XCTestLib_Tests-umbrella.h */,
+				1CE5A6F78FEF52B6DC7D3DA34C10E114 /* Pods-XCTestLib_Tests.debug.xcconfig */,
+				30FBE722EE7A9989B75776CCA9FAFB32 /* Pods-XCTestLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-XCTestLib_Tests";
+			path = "Target Support Files/Pods-XCTestLib_Tests";
+			sourceTree = "<group>";
+		};
+		EBBF32495840FB34DAE1374C52EBB933 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FC20D083ED219E1E5A71C28AE4542B16 /* LICENSE */,
+				FC79BEDCD7E26AAFB1AFA268D1DA1B81 /* README.md */,
+				711E27D967F9F5645D5EB20EEA377D6B /* XCTestLib.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1E755B80AD2974BEFD98E7D72DB1B810 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1AE66F4FBA194EEB06F664C0FA9E9D /* Pods-XCTestLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57803811A331082A2AED1BF2AEB42BFC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7046EBE26B7FE15BE2AC7FE81435D3F3 /* XCAbstractTest.h in Headers */,
+				4E735D8E908BBA7B2DE1115B70686919 /* XCTActivity.h in Headers */,
+				9C254D47E4522CF29CCB399F14FA81C8 /* XCTAttachment.h in Headers */,
+				5189A6AEBFB7BDD9B84FADCD1AB225DA /* XCTAttachmentLifetime.h in Headers */,
+				BF4818AD35F2131BE7828715D1CD73CD /* XCTContext.h in Headers */,
+				0735BCA28FD87EB094486906A1E1C6EF /* XCTDarwinNotificationExpectation.h in Headers */,
+				C5720DC077604D81ED0407CF53360D6B /* XCTest.h in Headers */,
+				60ADFA2AAB6B0B2D9C43294467DC3754 /* XCTestAssertions.h in Headers */,
+				C2216DE8A3AEE5AD23EFC4A3E30A7B1E /* XCTestAssertionsImpl.h in Headers */,
+				1E5CA97279B2A31D64907DD1E9A657C2 /* XCTestCase+AsynchronousTesting.h in Headers */,
+				1F6933627F90D8D56591E8DF53685359 /* XCTestCase+XCUIInterruptionMonitoring.h in Headers */,
+				75764AE000AED20188F9586AB1580113 /* XCTestCase.h in Headers */,
+				6AD8A5E410DC861401732262055EAB8F /* XCTestCaseRun.h in Headers */,
+				5A99B5B6280855C467F37550103A7749 /* XCTestDefines.h in Headers */,
+				67B5C5F3D51D4D497D177B6E28A77D95 /* XCTestErrors.h in Headers */,
+				BC6CE5E5FBEE65E4381DA495DD3F6726 /* XCTestExpectation.h in Headers */,
+				86A5B9673766E548640A87228CC5AB29 /* XCTestLib-umbrella.h in Headers */,
+				C61C4259346AB3BB0838911A0FD193F9 /* XCTestLog.h in Headers */,
+				29FA74D34121B68BA4794CA64F5CAC36 /* XCTestObservation.h in Headers */,
+				B183A18F8C341F4017069E6A640CABC8 /* XCTestObservationCenter.h in Headers */,
+				B3D7F0073E45AC2F1A67D2B3EBE3B881 /* XCTestObserver.h in Headers */,
+				EE50C8CA92B1DF8D6C42E7CD42E26885 /* XCTestProbe.h in Headers */,
+				003E38518B12CDE6A385542857BCBF30 /* XCTestRun.h in Headers */,
+				F9ED2C8DF63326B4ECD241671E3A4333 /* XCTestSkipping.h in Headers */,
+				E7FDB18536B069E85DA4E259B445B19B /* XCTestSkippingImpl.h in Headers */,
+				BB2B93DD5EE2DD4BF6F2D493794B9B5D /* XCTestSuite.h in Headers */,
+				B1CB004D7CE6AC4C557086DF0233DBCF /* XCTestSuiteRun.h in Headers */,
+				F98FBD231B11DAFF83F9870599EAA09E /* XCTIssue.h in Headers */,
+				73C452F76F514D5E4B817A75AA5E55C2 /* XCTKVOExpectation.h in Headers */,
+				CF90A75447F64F331BF38BA7F2A011EB /* XCTMeasureOptions.h in Headers */,
+				E6B76CE64599E5F034405C8CA80CFD70 /* XCTMetric.h in Headers */,
+				29E697B5D9A027FBF8199F6C5BC332BE /* XCTNSNotificationExpectation.h in Headers */,
+				B0A50E57955D3FD03943D9D1F8FD5227 /* XCTNSPredicateExpectation.h in Headers */,
+				C817ADE1BFB026D8F211A667A1101B5E /* XCTSourceCodeContext.h in Headers */,
+				C650AB4F2A23EEA3423E1651AD1276D3 /* XCTWaiter.h in Headers */,
+				572C0C7170E9F294F16A4AC54D1F0C7A /* XCUIApplication.h in Headers */,
+				8F60A21A59557C4E545C8577ED5559CA /* XCUICoordinate.h in Headers */,
+				E924415AC99042FBF8B455AA0FC191BC /* XCUIDevice.h in Headers */,
+				2876C12D8D59FD2118D79C84AC3152C8 /* XCUIElement.h in Headers */,
+				6B1113A8844BA97C9BB38E79972F9587 /* XCUIElementAttributes.h in Headers */,
+				912E63EE56C1DE2B2477CEE6EAE345C5 /* XCUIElementQuery.h in Headers */,
+				743CE3F442663E865F1DE4738F557F64 /* XCUIElementTypeQueryProvider.h in Headers */,
+				D42EBCCF9B4468CBAE1A3CBFE4B71A9B /* XCUIElementTypes.h in Headers */,
+				5A5606290981EA86264575D3D3EA4CBE /* XCUIKeyboardKeys.h in Headers */,
+				B67B0654DF9EC91323CA82AC1D284E42 /* XCUIProtectedResource.h in Headers */,
+				94BFDC995B05A63948CCB18AA922CFA7 /* XCUIRemote.h in Headers */,
+				2D5171EE52ECDFCCF227797723B91583 /* XCUIScreen.h in Headers */,
+				1043EE017B945BF1D7355AE5713C6FE7 /* XCUIScreenshot.h in Headers */,
+				8F67498F44937CA0797DEBF3B6761047 /* XCUIScreenshotProviding.h in Headers */,
+				0CDD7386BDFF0D5A83367CFDA3417D33 /* XCUISiriService.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E017AC7CF32C0855FFE18FE44C1B72B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62E50D24A76420A408149E018F9C627 /* Pods-XCTestLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5ACA13BDE9809C7DEBADD8CF37E31F12 /* XCTestLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8081BA75DA2929BFA0544224899E34BA /* Build configuration list for PBXNativeTarget "XCTestLib" */;
+			buildPhases = (
+				57803811A331082A2AED1BF2AEB42BFC /* Headers */,
+				E14C7D4CA5570688D75F2AEB2ABC9AE9 /* Sources */,
+				B8B2F36DB6578D0CBE745D2A09D2DB2F /* Frameworks */,
+				E92744F39A09A11DF3895A6A2982FF7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XCTestLib;
+			productName = XCTestLib;
+			productReference = 41A419144612D2C5EAFE31698D62895C /* XCTestLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C00E94FB90AE9F86EF9445F4CEDFC323 /* Pods-XCTestLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8591B39FCFEEC3CF41EC100F8A96192 /* Build configuration list for PBXNativeTarget "Pods-XCTestLib_Tests" */;
+			buildPhases = (
+				5E017AC7CF32C0855FFE18FE44C1B72B /* Headers */,
+				9B1554EF9BD40E76B9602BBD0DD3C19B /* Sources */,
+				11B6FA036E62F153E138DFA45FC6CF88 /* Frameworks */,
+				32AFDB1795DC22AA71622E5CC749B65F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7118893ABA6DCB9BFC62050FF16D1D53 /* PBXTargetDependency */,
+			);
+			name = "Pods-XCTestLib_Tests";
+			productName = "Pods-XCTestLib_Tests";
+			productReference = 3689EC1AE7D130E3D070E3A669AAECCF /* Pods_XCTestLib_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DA8F640FBFBC6B3B6403B1783FA241DD /* Pods-XCTestLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55063C3D80ACA9336B193D368F36047C /* Build configuration list for PBXNativeTarget "Pods-XCTestLib_Example" */;
+			buildPhases = (
+				1E755B80AD2974BEFD98E7D72DB1B810 /* Headers */,
+				041907103E7BD850926AABD432D17793 /* Sources */,
+				E5C83B64F980C6D6F5B5E1655E0F141B /* Frameworks */,
+				737EE19D394C859165747EDC977F2367 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2A7396A076E8C781048ABEAE6D54238 /* PBXTargetDependency */,
+			);
+			name = "Pods-XCTestLib_Example";
+			productName = "Pods-XCTestLib_Example";
+			productReference = C231BCA7FCAED65B99F4B6A52C2823CA /* Pods_XCTestLib_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8E28A43AF4F1A1AF18743A84F166F6A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA8F640FBFBC6B3B6403B1783FA241DD /* Pods-XCTestLib_Example */,
+				C00E94FB90AE9F86EF9445F4CEDFC323 /* Pods-XCTestLib_Tests */,
+				5ACA13BDE9809C7DEBADD8CF37E31F12 /* XCTestLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32AFDB1795DC22AA71622E5CC749B65F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		737EE19D394C859165747EDC977F2367 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92744F39A09A11DF3895A6A2982FF7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		041907103E7BD850926AABD432D17793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27867BBB26513DA8388E97C2D68D6F3 /* Pods-XCTestLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1554EF9BD40E76B9602BBD0DD3C19B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F6EDAF678E95018488C3CA85CF076F /* Pods-XCTestLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E14C7D4CA5570688D75F2AEB2ABC9AE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB4C2DDEE74CAA139E7765B87055A2A /* XCTest.a in Sources */,
+				A72F1713CA012AD2C2FB0D896C7BE044 /* XCTestLib-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7118893ABA6DCB9BFC62050FF16D1D53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XCTestLib_Example";
+			target = DA8F640FBFBC6B3B6403B1783FA241DD /* Pods-XCTestLib_Example */;
+			targetProxy = 95E09856264406B8DD0E5CFD0761D021 /* PBXContainerItemProxy */;
+		};
+		C2A7396A076E8C781048ABEAE6D54238 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XCTestLib;
+			target = 5ACA13BDE9809C7DEBADD8CF37E31F12 /* XCTestLib */;
+			targetProxy = 1ED6F161D624EEDBCA0FDA818224CE85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20431BF7C8939352DBB16A4D5C7BA538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A87D9420144714BFFF2CB73F187DBD6E /* XCTestLib.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XCTestLib/XCTestLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XCTestLib/XCTestLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/XCTestLib/XCTestLib.modulemap";
+				PRODUCT_MODULE_NAME = XCTestLib;
+				PRODUCT_NAME = XCTestLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2DE801CBF4519DD088B2B644CEC1EA1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB7F005FF318D004B8314BA292520FCB /* Pods-XCTestLib_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XCTestLib_Example/Pods-XCTestLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XCTestLib_Example/Pods-XCTestLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7B09DD42BFAF8781F0D352CAD308C7BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C9CCEB3067E4059FAF40F880D37BB7D /* XCTestLib.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XCTestLib/XCTestLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XCTestLib/XCTestLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/XCTestLib/XCTestLib.modulemap";
+				PRODUCT_MODULE_NAME = XCTestLib;
+				PRODUCT_NAME = XCTestLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ACBEA72C953C2BAA0248F40E21CA36B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CE5A6F78FEF52B6DC7D3DA34C10E114 /* Pods-XCTestLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XCTestLib_Tests/Pods-XCTestLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XCTestLib_Tests/Pods-XCTestLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B8F11773F88A26B027F49D86C5564D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30FBE722EE7A9989B75776CCA9FAFB32 /* Pods-XCTestLib_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XCTestLib_Tests/Pods-XCTestLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XCTestLib_Tests/Pods-XCTestLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D17DC4F6C5274BA64E40C0A80617F154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DEAE4C5974DF9FD0E62F07663DDE33C /* Pods-XCTestLib_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XCTestLib_Example/Pods-XCTestLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XCTestLib_Example/Pods-XCTestLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55063C3D80ACA9336B193D368F36047C /* Build configuration list for PBXNativeTarget "Pods-XCTestLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE801CBF4519DD088B2B644CEC1EA1C /* Debug */,
+				D17DC4F6C5274BA64E40C0A80617F154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8081BA75DA2929BFA0544224899E34BA /* Build configuration list for PBXNativeTarget "XCTestLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20431BF7C8939352DBB16A4D5C7BA538 /* Debug */,
+				7B09DD42BFAF8781F0D352CAD308C7BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8591B39FCFEEC3CF41EC100F8A96192 /* Build configuration list for PBXNativeTarget "Pods-XCTestLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACBEA72C953C2BAA0248F40E21CA36B7 /* Debug */,
+				B8F11773F88A26B027F49D86C5564D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

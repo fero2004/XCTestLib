@@ -1,0 +1,16 @@
+PODS:
+  - XCTestLib (0.1.0)
+
+DEPENDENCIES:
+  - XCTestLib (from `../`)
+
+EXTERNAL SOURCES:
+  XCTestLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XCTestLib: 7f77eee7d9e0d8c55061e369ac5c77151644581a
+
+PODFILE CHECKSUM: 18c6c9e8f5bd057f6e71f87beef6a75f2c5804c1
+
+COCOAPODS: 1.9.3

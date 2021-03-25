@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = fero2004;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = WMLJVZA2E5;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -494,6 +497,7 @@
 			baseConfigurationReference = C298C10081A1BFD91A14C3B7 /* Pods-XCTestLib_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WMLJVZA2E5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XCTestLib/XCTestLib-Prefix.pch";
 				INFOPLIST_FILE = "XCTestLib/XCTestLib-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = C8D1E299ECF33EE0F7C64F66 /* Pods-XCTestLib_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WMLJVZA2E5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XCTestLib/XCTestLib-Prefix.pch";
 				INFOPLIST_FILE = "XCTestLib/XCTestLib-Info.plist";

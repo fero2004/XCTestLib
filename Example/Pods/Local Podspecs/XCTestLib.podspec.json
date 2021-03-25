@@ -1,0 +1,27 @@
+{
+  "name": "XCTestLib",
+  "version": "0.1.0",
+  "summary": "A short description of XCTestLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/fero2004/XCTestLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fero2004": "fero2009@126.com"
+  },
+  "source": {
+    "git": "https://github.com/fero2004/XCTestLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "XCTestLib/Classes/**/*",
+  "ios": {
+    "vendored_frameworks": "XCTestLib.framework"
+  },
+  "vendored_libraries": "XCTestLib/Classes/*.a",
+  "frameworks": "UIKit"
+}

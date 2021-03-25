@@ -31,14 +31,16 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'XCTestLib/Classes/**/*'
-  s.ios.vendored_frameworks = 'XCTestLib.framework'
-  s.library   = "XCTest"
-  
+#  s.ios.vendored_frameworks = 'XCTestLib.framework'
+#  s.library   = "XCTest"
+  s.vendored_libraries = 'XCTestLib/Classes/*.a'
+  s.preserve_paths = 'XCTestLib/Classes/XCTest.a'
+#  s.public_header_files = 'XCTestLib/Classes/**/*.h'
   # s.resource_bundles = {
   #   'XCTestLib' => ['XCTestLib/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
