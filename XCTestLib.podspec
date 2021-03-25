@@ -31,6 +31,8 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'XCTestLib/Classes/**/*'
+  s.ios.vendored_frameworks = 'XCTestLib.framework'
+  s.library   = "XCTest"
   
   # s.resource_bundles = {
   #   'XCTestLib' => ['XCTestLib/Assets/*.png']
