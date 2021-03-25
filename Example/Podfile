@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'XCTestLib_Example' do
+  pod 'XCTestLib', :path => '../'
+
+  target 'XCTestLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
